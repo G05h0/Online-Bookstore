@@ -7,4 +7,11 @@
     <RootNamespace>Online_Bookstore</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookstoreWebApp.Common\BookstoreWebApp.Common.csproj" />
+    <ProjectReference Include="..\BookstoreWebApp.Data\BookstoreWebApp.Data.csproj" />
+    <ProjectReference Include="..\BookstoreWebApp.Infrastructure\BookstoreWebApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\BookstoreWebApp.ViewModels\BookstoreWebApp.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>
