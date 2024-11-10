@@ -8,7 +8,7 @@ namespace BookstoreWebApp.Data.Models
 {
     public class Book
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; } = new Guid();
 
         public string Name { get; set; } = null!;
 
