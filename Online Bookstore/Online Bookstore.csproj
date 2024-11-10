@@ -8,17 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BookstoreWebApp.Common\BookstoreWebApp.Common.csproj" />
     <ProjectReference Include="..\BookstoreWebApp.Data\BookstoreWebApp.Data.csproj" />
     <ProjectReference Include="..\BookstoreWebApp.Infrastructure\BookstoreWebApp.Infrastructure.csproj" />
